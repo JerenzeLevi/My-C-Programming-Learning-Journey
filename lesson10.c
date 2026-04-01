@@ -20,9 +20,7 @@ int main() {
     printf("Enter time (in years): ");
     scanf("%f", &time);
 
-    /* 2. Calculation 
-       Formula: Amount = P * (1 + r/100)^t
-    */
+    
     total = principal * pow((1 + rate / 100), time);
     ci = total - principal; // Compound Interest only
 

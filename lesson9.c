@@ -5,10 +5,10 @@ int main(){
 
     //circle calculator program
 
-    double radius = 0.0;
-    double area = 0.0;
-    double surfaceArea = 0.0;
-    double volume = 0.0;
+    double radius = 0.0f;
+    double area = 0.0f;
+    double surfaceArea = 0.0f;
+    double volume = 0.0f;
     const double PI = 3.14159; //constant, makes the value unchangeabe if accidentally tried to change, good practice to capitalized the variable
 
     printf("Enter the radius: ");
